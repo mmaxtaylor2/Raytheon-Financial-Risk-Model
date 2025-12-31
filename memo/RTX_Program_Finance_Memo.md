@@ -56,3 +56,5 @@ Actionable Notes if This Were a Real Mandate
 Improve hedge discipline (EUR/USD + GBP/USD exposures)
 Renegotiate escalation clauses proactively
 Re-source vulnerable suppliers
+7. The Excel workbook used to generate assumptions and validate model outputs is available in:
+`/workbooks/RTX_Financial_Model.xlsx`
