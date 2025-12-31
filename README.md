@@ -70,6 +70,12 @@ It does not screen as a value opportunity like NOC or a premium name like GD.
 
 ---
 
+## Supporting Model:
+The full spreadsheet model used for scenario inputs and validation can be downloaded here:
+`/workbooks/RTX_Financial_Model.xlsx`
+
+---
+
 ## Where to Look (For Recruiters or Hiring Managers)
 
 If you're reviewing this project, start with:
@@ -79,3 +85,4 @@ If you're reviewing this project, start with:
 4. `charts/` — visual context of results
 
 ---
+
