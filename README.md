@@ -1,88 +1,91 @@
-# Raytheon-Style Financial Risk & Valuation Model
-A hybrid capital-markets and program finance study evaluating whether RTX (Raytheon Technologies) is fairly valued, undervalued, or overvalued given current sector fundamentals, risk-adjusted cash flow assumptions, and peer pricing.
+# Raytheon Financial Risk & Resilience Analysis  
+**Rate Sensitivity, Cost Escalation, and Valuation Stability Case Study**
+
+**View-Only Model (Google Sheets):**  
+https://docs.google.com/spreadsheets/d/1xDqe5Ms85I5aapY7dcH9hZSisjrabVbkXWgWOXCfNg4/edit?usp=sharing
 
 ---
 
-## Project Objective
-Determine if RTX’s current market pricing is justified by operating performance, sector dynamics, and risk-adjusted fundamentals — or if a pricing dislocation exists that creates upside/downside opportunity.
+## Business Question
+How resilient is RTX’s valuation and financial profile if interest rates remain elevated and defense-sector cost pressures persist?
 
-This project simulates a workflow commonly used in:
-- Capital Markets / Investment Analyst roles
-- FP&A with external market alignment
-- Program Finance & Defense Sector Cost Modeling
-- Corporate Strategy / Competitive Benchmarking
+This project evaluates whether RTX’s current market pricing is supported by realistic assumptions around discount rates, margin durability, and operating risk — or whether downside risk emerges under a higher-for-longer rate environment.
 
 ---
 
-## Repository Structure
+## Why This Matters
+In long-cycle, capital-intensive industries such as defense, valuation risk is often driven less by revenue growth and more by **discount rates, cost escalation, and cash-flow durability**.
 
-| Folder | Contents |
-|--------|-----------|
-| `/models` | Core DCF engine with FX + cost escalation hooks |
-| `/scripts` | Data pull, chart generation, and comps builder |
-| `/data` | Price history, fundamentals, and benchmarking outputs |
-| `/charts` | RTX vs sector charts and peer performance visuals |
-| `/memo` | 1–2 page program finance & valuation memo (PDF/MD) |
-| `README.md` | Project overview and guidance for recruiters/interviewers |
+As interest rates rise and input costs remain volatile, FP&A, treasury, and strategy teams must understand:
+- How sensitive enterprise value is to changes in WACC  
+- Whether margins can absorb cost pressure without eroding returns  
+- How valuation confidence changes under downside macro scenarios  
 
----
-
-## Methodology Summary
-
-**Valuation**
-- 5-Year DCF with terminal growth and WACC sensitivity
-- FX and cost escalation adjustments applied to operating margins
-- IRR threshold testing (10% hurdle assumption)
-
-**Market Validation**
-- RTX, LMT, GD, NOC, ITA downloaded via `yfinance`
-- Peer multiples: EV/EBITDA, P/FCF, Revenue CAGR
-- Sector benchmarking to confirm pricing alignment
-
-**Decision Framework**
-- Positive NPV required for “Go”
-- IRR > hurdle + WACC spread for value creation
-- FX + escalation risk determine operational confidence
+This analysis mirrors the type of stress testing used in:
+- Corporate FP&A and long-range planning  
+- Treasury and capital allocation decisions  
+- Defense program finance and contract evaluation  
 
 ---
 
-## Key Results
+## Analytical Framework
+The model is structured as a **financial risk and valuation-stability assessment**, rather than a pure equity-selection exercise:
 
-| Outcome | Result |
-|---------|---------|
-| Conclusion | RTX trades near fair value |
-| Upside Case | Requires margin expansion or lower discount rate |
-| Downside Case | Cost pressures + contracting cycle risk |
-| Peer Position | RTX sits middle-of-pack in sector multiples |
+- Discounted cash flow framework with explicit WACC sensitivity  
+- Margin and cost-escalation stress testing  
+- Scenario analysis across base, upside, and downside cases  
+- Peer benchmarking to contextualize valuation outcomes  
+- Decision thresholds based on NPV and IRR relative to WACC  
 
-**High-Level Interpretation:** RTX is not mispriced.  
-It does not screen as a value opportunity like NOC or a premium name like GD.
-
----
-
-## Visual Outputs
-
-**RTX vs ITA (Sector Benchmark)**  
-`/charts/rtx_vs_ita.png`
-
-**RTX vs Defense Peers (LMT, GD, NOC)**  
-`/charts/rtx_vs_peers.png`
+All outputs are directly linked to rate, cost, and operating assumptions to ensure traceability and transparency.
 
 ---
 
-## Supporting Model:
-The full spreadsheet model used for scenario inputs and validation can be downloaded here:
-`/workbooks/RTX_Financial_Model.xlsx`
+## Key Assumptions
+- Interest rates remain structurally higher relative to the prior decade  
+- Cost escalation pressure persists across labor and materials  
+- Defense demand remains stable, but margin expansion is constrained  
+- Valuation decisions must clear both IRR hurdles and WACC-based thresholds  
+
+Assumptions are intentionally conservative to test **valuation durability**, not to optimize upside scenarios.
 
 ---
 
-## Where to Look (For Recruiters or Hiring Managers)
+## Key Findings
+- RTX trades near fair value under base-case assumptions  
+- Upside scenarios require either margin expansion or a lower discount rate  
+- Downside risk emerges if cost pressures persist alongside elevated rates  
+- Relative to peers, RTX sits middle-of-the-pack on valuation multiples rather than screening as a clear value opportunity  
 
-If you're reviewing this project, start with:
-1. `memo/RTX_Program_Finance_Memo.md / .pdf` — business case & conclusion
-2. `models/raytheon_core_dcf.py` — valuation logic
-3. `scripts/rtx_data_pull.py` — market validation workflow
-4. `charts/` — visual context of results
+Overall, valuation outcomes are more sensitive to **rates and cost structure** than to top-line growth assumptions.
 
 ---
 
+## Decision Implications
+- Capital allocation decisions should prioritize margin resilience over growth optimism  
+- Valuation confidence depends heavily on discount-rate assumptions in a higher-rate regime  
+- Management guidance should be evaluated through a rate- and cost-adjusted lens  
+- RTX appears better suited for stability-oriented portfolios than for aggressive re-rating strategies  
+
+This project demonstrates how finance teams translate macro conditions into **risk-aware valuation judgment**, not just point estimates.
+
+---
+
+## Supporting Context
+*A short executive memo summarizing the program-finance logic and valuation conclusions is included in the repository for additional context.*
+
+---
+
+## Appendix: Model Screenshots (Executive Review Views)
+
+*Screenshots reflect executive-level outputs and decision-support views.  
+The full underlying model is maintained in Google Sheets.*
+
+### RTX Public Data & Baseline Inputs
+![RTX Public Data](assets/RTX%20Public%20Data%20Inputs_.png)
+
+### Valuation Sensitivity (Rates & Cost Pressure)
+![RTX Sensitivity](assets/RTX%20Sensitivity.png)
+
+### Scenario Outcomes (Base / Upside / Downside)
+![RTX Scenarios](assets/RTX%20Scenarios.png)
