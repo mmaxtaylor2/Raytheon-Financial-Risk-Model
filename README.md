@@ -115,13 +115,14 @@ The primary analytical model and scenario logic are maintained in Google Sheets 
 The full underlying model is maintained in Google Sheets.*
 
 ### RTX Public Data & Baseline Inputs
-![RTX Public Data]([assets/1.png)
+![Overview](assets/1.png)
 
 ### Valuation Sensitivity (Rates & Cost Pressure)
-![RTX Sensitivity](assets/RTX_Sensitivity.png)
+![RTX Sensitivity](assets/RTX%20Sensitivity.png)
 
 ### Scenario Outcomes (Base / Upside / Downside)
 ![img](assets/RTX_Scenarios%20.png)
+
 
 
 
