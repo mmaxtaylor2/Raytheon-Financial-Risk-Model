@@ -41,6 +41,24 @@ All outputs are directly linked to rate, cost, and operating assumptions to ensu
 
 ---
 
+## Analytical Tooling & Validation
+The analysis combines spreadsheet-based financial modeling with Python-based market validation to ensure conclusions are both internally consistent and externally grounded.
+
+Google Sheets was used as the primary modeling environment for:
+- Discounted cash flow construction
+- Rate and cost sensitivity analysis
+- Scenario modeling and valuation interpretation
+
+Python was used to support and validate the analysis by:
+- Pulling historical price and peer data (RTX, LMT, GD, NOC, ITA)
+- Normalizing valuation multiples for cross-company comparison
+- Generating benchmark and sensitivity visuals
+- Cross-checking model conclusions against observed market pricing
+
+This hybrid workflow mirrors how finance teams use programmatic tools to validate spreadsheet-driven conclusions rather than replacing judgment with automation.
+
+---
+
 ## Key Assumptions
 - Interest rates remain structurally higher relative to the prior decade  
 - Cost escalation pressure persists across labor and materials  
@@ -82,10 +100,11 @@ This project demonstrates how finance teams translate macro conditions into **ri
 The full underlying model is maintained in Google Sheets.*
 
 ### RTX Public Data & Baseline Inputs
-![RTX Public Data](assets/RTX%20Public%20Data%20Inputs_.png)
+![RTX Public Data](assets/RTX_Public_Data_Inputs.png)
 
 ### Valuation Sensitivity (Rates & Cost Pressure)
-![RTX Sensitivity](assets/RTX%20Sensitivity.png)
+![RTX Sensitivity](assets/RTX_Sensitivity.png)
 
 ### Scenario Outcomes (Base / Upside / Downside)
-![RTX Scenarios](assets/RTX%20Scenarios.png)
+![RTX Scenarios](assets/RTX_Scenarios.png)
+
