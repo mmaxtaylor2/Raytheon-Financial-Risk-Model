@@ -100,10 +100,11 @@ This project demonstrates how finance teams translate macro conditions into **ri
 The full underlying model is maintained in Google Sheets.*
 
 ### RTX Public Data & Baseline Inputs
-![RTX Public Data](assets/RTX_Public_Data_Inputs.png)
+![RTX Public Data]([assets/RTX_Public_Data_Inputs.png](https://github.com/mmaxtaylor2/Raytheon-Financial-Risk-Model/blob/main/assets/RTX%20Public%20Data%20Inputs%20.png))
 
 ### Valuation Sensitivity (Rates & Cost Pressure)
 ![RTX Sensitivity](assets/RTX_Sensitivity.png)
 
 ### Scenario Outcomes (Base / Upside / Downside)
 ![RTX Scenarios](assets/RTX_Scenarios.png)
+
