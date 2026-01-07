@@ -94,6 +94,21 @@ This project demonstrates how finance teams translate macro conditions into **ri
 
 ---
 
+## Repository Contents (At a Glance)
+
+- `assets/` — Curated screenshots of executive-level outputs, sensitivities, and scenario results used for decision review  
+- `memo/` — Short executive memo summarizing program finance logic, risk assessment, and valuation conclusions  
+- `scripts/` — Python scripts used for market data pulls, peer benchmarking, and external validation  
+- `charts/` — Generated comparison visuals supporting valuation and peer context  
+- `models/` — Core valuation and risk modeling logic used to structure the analysis  
+- `assumptions/` — Key modeling assumptions and scenario inputs used across rate, cost, and margin cases  
+- `benchmarks/` — Peer and sector benchmarking data used to contextualize valuation outcomes  
+- `data/` — Underlying market and financial data used for analysis and validation  
+
+The primary analytical model and scenario logic are maintained in Google Sheets and linked above.
+
+---
+
 ## Appendix: Model Screenshots (Executive Review Views)
 
 *Screenshots reflect executive-level outputs and decision-support views.  
@@ -107,6 +122,7 @@ The full underlying model is maintained in Google Sheets.*
 
 ### Scenario Outcomes (Base / Upside / Downside)
 ![RTX Scenarios](assets/RTX_Scenarios.png)
+
 
 
 
