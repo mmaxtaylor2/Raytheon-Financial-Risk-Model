@@ -121,7 +121,9 @@ The full underlying model is maintained in Google Sheets.*
 ![RTX Sensitivity](assets/RTX_Sensitivity.png)
 
 ### Scenario Outcomes (Base / Upside / Downside)
-![RTX Scenarios](assets/RTX_Scenarios.png)
+![img](assets/RTX_Scenarios%20.png)
+
+
 
 
 
