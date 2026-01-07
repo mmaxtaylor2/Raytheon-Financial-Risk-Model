@@ -107,4 +107,3 @@ The full underlying model is maintained in Google Sheets.*
 
 ### Scenario Outcomes (Base / Upside / Downside)
 ![RTX Scenarios](assets/RTX_Scenarios.png)
-
