@@ -100,12 +100,13 @@ This project demonstrates how finance teams translate macro conditions into **ri
 The full underlying model is maintained in Google Sheets.*
 
 ### RTX Public Data & Baseline Inputs
-![RTX Public Data]([assets/1.png))
+![RTX Public Data]([assets/1.png)
 
 ### Valuation Sensitivity (Rates & Cost Pressure)
 ![RTX Sensitivity](assets/RTX_Sensitivity.png)
 
 ### Scenario Outcomes (Base / Upside / Downside)
 ![RTX Scenarios](assets/RTX_Scenarios.png)
+
 
 
